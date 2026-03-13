@@ -11,7 +11,7 @@ Esta guia le explica como editar todos los elementos de su sitio web desde el pa
 3. [Editar la Barra Superior (Topbar)](#3-editar-la-barra-superior-topbar)
 4. [Editar el Encabezado (Header)](#4-editar-el-encabezado-header)
 5. [Editar las Categorias de Productos](#5-editar-las-categorias-de-productos)
-6. [Editar Logos de Proveedores](#6-editar-logos-de-proveedores)
+6. [Subir Logos de Proveedores](#6-subir-logos-de-proveedores)
 7. [Editar el Pie de Pagina (Footer)](#7-editar-el-pie-de-pagina-footer)
 8. [Configurar WhatsApp y Contacto](#8-configurar-whatsapp-y-contacto)
 9. [Subir Imagenes](#9-subir-imagenes)
@@ -21,10 +21,10 @@ Esta guia le explica como editar todos los elementos de su sitio web desde el pa
 
 ## 1. Acceder al Editor del Tema
 
-1. Inicie sesion en su cuenta de Shopify: `https://su-tienda.myshopify.com/admin`
-2. En el menu lateral, haga clic en **Tienda Online** (o "Online Store")
+1. Inicie sesion en su panel de administracion de Shopify
+2. En el menu lateral izquierdo, haga clic en **Tienda Online** (o "Online Store" en ingles)
 3. Haga clic en **Temas** (o "Themes")
-4. En su tema activo, haga clic en el boton **Personalizar** (o "Customize")
+4. En su tema activo (Terrapartes), haga clic en el boton **Personalizar** (o "Customize")
 
 Esto abrira el **Editor Visual del Tema** donde puede ver los cambios en tiempo real.
 
@@ -32,7 +32,7 @@ Esto abrira el **Editor Visual del Tema** donde puede ver los cambios en tiempo 
 
 ## 2. Cambiar Colores Globales
 
-Los colores principales del sitio ahora se pueden cambiar desde la configuracion del tema.
+Los colores principales del sitio se pueden cambiar desde la configuracion del tema.
 
 ### Pasos:
 
@@ -82,9 +82,9 @@ El encabezado con el logo y menu de navegacion.
 ### Cambiar el Logo:
 
 1. Haga clic en la seccion del encabezado o busque **"TP Header"**
-2. En **Logo**, haga clic en **Seleccionar imagen**
+2. En **Logo del sitio**, haga clic en **Seleccionar imagen**
 3. Suba su nuevo logo o elija uno de la biblioteca
-4. Ajuste el **Ancho del logo** si es necesario
+4. Ajuste la **Altura del logo** con el control deslizante si es necesario
 
 ### Editar los Enlaces del Menu:
 
@@ -94,8 +94,14 @@ Los enlaces del menu se editan como bloques:
 2. Puede cambiar:
    - **Texto del enlace** (ej: "REPUESTOS", "CONTACTO")
    - **URL** - Deje vacio para usar URLs automaticas, o ingrese una URL personalizada
-3. Para agregar un nuevo enlace, haga clic en **Agregar bloque** > **Enlace**
+3. Para agregar un nuevo enlace, haga clic en **Agregar bloque** > **Enlace de Menu**
 4. Para eliminar un enlace, seleccionelo y haga clic en el icono de basura
+5. Para reordenar, arrastre los bloques
+
+### Cambiar Colores del Header:
+
+- **Color de fondo** - Color de fondo del encabezado
+- **Color de enlaces** - Color de los textos del menu
 
 ---
 
@@ -120,11 +126,11 @@ La seccion con las tarjetas de categorias (Frenos, Motor, etc.)
 
 ### Editar cada Categoria:
 
-1. Haga clic en una categoria para editarla
+1. Haga clic en una categoria (bloque) para editarla
 2. Puede cambiar:
    - **Nombre de la categoria** (ej: "Frenos", "Motor")
    - **ID interno** - Identificador sin espacios (ej: "frenos", "motor")
-   - **Imagen de la categoria** - Suba una imagen desde su computadora
+   - **Imagen de la categoria** - Haga clic en **Seleccionar imagen** y suba una imagen
 
 ### Agregar una Nueva Categoria:
 
@@ -137,15 +143,19 @@ La seccion con las tarjetas de categorias (Frenos, Motor, etc.)
 1. Seleccione la categoria
 2. Haga clic en el icono de basura
 
+### Reordenar Categorias:
+
+1. Arrastre los bloques de categoria hacia arriba o abajo para cambiar el orden
+
 ---
 
-## 6. Editar Logos de Proveedores
+## 6. Subir Logos de Proveedores
 
 La seccion donde aparecen los logos de las marcas de repuestos que maneja.
 
-### Pasos:
+### Configuracion de la Seccion:
 
-1. Busque la seccion **"TP Marcas / Proveedores"**
+1. Busque la seccion **"TP Marcas / Proveedores"** en el editor
 2. Configuracion general:
 
 | Opcion | Descripcion |
@@ -153,27 +163,46 @@ La seccion donde aparecen los logos de las marcas de repuestos que maneja.
 | **Titulo** | Ej: "Nuestros Proveedores" |
 | **Palabra destacada** | La palabra en color |
 | **Subtitulo** | Texto descriptivo |
-| **Mostrar como** | **Logos** (para imagenes) o **Solo texto** |
+| **Mostrar como** | Seleccione **"Logos / Imagenes"** para mostrar logos |
 | **Colores** | Fondo, titulo, destacado |
 
-### Agregar un Logo de Proveedor:
+### Como Agregar un Logo de Proveedor:
 
-1. Haga clic en **Agregar bloque** > **Marca / Proveedor**
-2. Complete:
-   - **Nombre de la marca** - Se usa como texto alternativo
-   - **Logo de la marca** - Haga clic en **Seleccionar imagen** y suba el logo
-   - **Destacar esta marca** - Marque si quiere resaltarla con borde
+1. En la seccion "TP Marcas / Proveedores", haga clic en **Agregar bloque**
+2. Seleccione **"Marca / Proveedor"**
+3. Complete los campos:
+   - **Nombre de la marca** - Nombre del proveedor (se usa como texto alternativo)
+   - **Logo de la marca** - Haga clic en **Seleccionar imagen**
+4. En el selector de imagenes:
+   - Haga clic en **Subir** para cargar el logo desde su computadora
+   - Seleccione el archivo PNG o JPG del logo
+   - Espere a que se cargue
+   - Haga clic en **Seleccionar**
+5. Opcionalmente, marque **"Destacar esta marca"** para resaltarla con un borde
+6. Haga clic en **Guardar**
 
 ### Cambiar un Logo Existente:
 
-1. Haga clic en el proveedor que desea editar
+1. Haga clic en el bloque del proveedor que desea editar
 2. En **Logo de la marca**, haga clic en **Cambiar**
-3. Suba el nuevo logo
+3. Suba el nuevo logo o seleccione uno de la biblioteca
+4. Guarde los cambios
+
+### Eliminar un Proveedor:
+
+1. Seleccione el bloque del proveedor
+2. Haga clic en el icono de basura
+3. Guarde los cambios
+
+### Reordenar Proveedores:
+
+1. Arrastre los bloques hacia arriba o abajo para cambiar el orden de aparicion
 
 ### Recomendaciones para Logos:
 
-- Use imagenes PNG con fondo transparente
-- Tamano recomendado: 200x100 pixeles minimo
+- **Formato**: PNG con fondo transparente (recomendado) o JPG
+- **Tamano**: Minimo 200x100 pixeles
+- **Peso**: Menos de 500KB por imagen
 - Los logos se mostraran en escala de grises y se colorean al pasar el mouse
 
 ---
@@ -184,7 +213,7 @@ La seccion inferior del sitio con el logo, enlaces y redes sociales.
 
 ### Pasos:
 
-1. Busque la seccion **"TP Footer"**
+1. Desplacese hasta el final de la pagina en el editor o busque **"TP Footer"**
 2. Configuracion disponible:
 
 | Opcion | Descripcion |
@@ -202,6 +231,8 @@ La seccion inferior del sitio con el logo, enlaces y redes sociales.
 2. Haga clic en un enlace para cambiar:
    - **Texto** (ej: "Contacto")
    - **URL** (deje vacio para URLs automaticas)
+3. Agregue nuevos enlaces con **Agregar bloque** > **Enlace**
+4. Elimine enlaces seleccionandolos y haciendo clic en el icono de basura
 
 ---
 
@@ -259,23 +290,24 @@ Estos ajustes se encuentran en la configuracion global del tema.
 ### Comprimir imagenes:
 
 Para que su sitio cargue rapido, comprima las imagenes antes de subirlas:
-- Use herramientas como [TinyPNG](https://tinypng.com/) o [Squoosh](https://squoosh.app/)
+- [TinyPNG](https://tinypng.com/) - Gratis, comprime PNG y JPG
+- [Squoosh](https://squoosh.app/) - Gratis, de Google
 
 ---
 
 ## 10. Consejos Importantes
 
 ### Guardar cambios:
-- Siempre haga clic en **Guardar** (esquina superior derecha) despues de hacer cambios
+- **SIEMPRE** haga clic en **Guardar** (boton verde en la esquina superior derecha) despues de hacer cambios
 - Los cambios no se aplican hasta que guarde
 
 ### Vista previa:
-- Use el selector de dispositivos (iconos de telefono/computadora) para ver como se ve en movil
-- Haga clic en **Vista previa** para ver sin guardar
+- Use los iconos de dispositivos (telefono/computadora) arriba para ver como se ve en movil
+- Los cambios se muestran en tiempo real en el editor
 
 ### Deshacer cambios:
 - Si comete un error, puede hacer clic en **Descartar** antes de guardar
-- Shopify guarda versiones anteriores del tema en caso de necesitar restaurar
+- Shopify guarda versiones anteriores del tema si necesita restaurar
 
 ### Reordenar secciones:
 - Arrastre las secciones en el panel izquierdo para cambiar el orden
@@ -292,12 +324,17 @@ Para que su sitio cargue rapido, comprima las imagenes antes de subirlas:
 
 ---
 
-## Soporte
+## Resumen de Secciones Editables
 
-Si tiene alguna pregunta o problema con la edicion del sitio, contacte al desarrollador con:
-- Una captura de pantalla del problema
-- Los pasos que siguio antes del error
-- El navegador que esta usando
+| Seccion | Que puede editar |
+|---------|------------------|
+| **Barra Superior** | Colores, textos |
+| **Header** | Logo, altura, colores, enlaces del menu |
+| **Hero** | Titulo, subtitulo, boton, imagen de fondo, colores |
+| **Categorias** | Titulo, subtitulo, colores, imagenes y nombres de cada categoria |
+| **Proveedores** | Titulo, subtitulo, colores, logos de cada proveedor |
+| **Footer** | Logo, copyright, colores, enlaces |
+| **Configuracion Global** | WhatsApp, telefono, email, redes sociales, colores del sitio |
 
 ---
 
