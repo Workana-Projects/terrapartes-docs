@@ -11,11 +11,14 @@ Esta guia le explica como editar todos los elementos de su sitio web desde el pa
 3. [Editar la Barra Superior (Topbar)](#3-editar-la-barra-superior-topbar)
 4. [Editar el Encabezado (Header)](#4-editar-el-encabezado-header)
 5. [Editar las Categorias de Productos](#5-editar-las-categorias-de-productos)
-6. [Subir Logos de Proveedores](#6-subir-logos-de-proveedores)
-7. [Editar el Pie de Pagina (Footer)](#7-editar-el-pie-de-pagina-footer)
-8. [Configurar WhatsApp y Contacto](#8-configurar-whatsapp-y-contacto)
-9. [Subir Imagenes](#9-subir-imagenes)
-10. [Consejos Importantes](#10-consejos-importantes)
+6. [Editar Pagina de Detalle de Categoria](#6-editar-pagina-de-detalle-de-categoria)
+7. [Subir Logos de Proveedores](#7-subir-logos-de-proveedores)
+8. [Editar Pagina de Garantias](#8-editar-pagina-de-garantias)
+9. [Editar Pagina Nosotros](#9-editar-pagina-nosotros)
+10. [Editar el Pie de Pagina (Footer)](#10-editar-el-pie-de-pagina-footer)
+11. [Configurar WhatsApp y Contacto](#11-configurar-whatsapp-y-contacto)
+12. [Subir Imagenes](#12-subir-imagenes)
+13. [Consejos Importantes](#13-consejos-importantes)
 
 ---
 
@@ -149,7 +152,64 @@ La seccion con las tarjetas de categorias (Frenos, Motor, etc.)
 
 ---
 
-## 6. Subir Logos de Proveedores
+## 6. Editar Pagina de Detalle de Categoria
+
+Cuando hace clic en una categoria, se abre una pagina de detalle que muestra los productos de esa categoria. **Esta pagina tambien es totalmente editable.**
+
+### Como acceder:
+
+1. En el Editor del Tema, use el selector de paginas arriba (donde dice la pagina actual)
+2. Navegue a **Paginas** > seleccione la categoria que desea editar (ej: "Frenos", "Suspension")
+3. O vaya a la URL de la categoria directamente en su navegador y haga clic en **Personalizar**
+
+### Editar el Banner Superior:
+
+1. Haga clic en la seccion **"TP Categoria Detalle"**
+2. En **Hero Banner**, puede editar:
+
+| Opcion | Descripcion |
+|--------|-------------|
+| **Titulo de la categoria** | El titulo grande (ej: "SUSPENSION Y DIRECCION") |
+| **Subtitulo** | Texto opcional debajo del titulo |
+| **Imagen del hero** | **Haga clic en "Seleccionar"** para subir una nueva imagen de fondo |
+| **URL externa de imagen** | Alternativa si no puede subir imagen |
+
+### IMPORTANTE - Cambiar Imagenes de Productos:
+
+**Por defecto se muestran imagenes de demostracion.** Para mostrar SUS propias imagenes de productos:
+
+1. En la seccion "TP Categoria Detalle", busque donde dice **"Producto"** (bloques)
+2. **Agregar productos personalizados:**
+   - Haga clic en **"Agregar bloque"**
+   - Seleccione **"Producto"**
+   - Ingrese el **Nombre del producto** (ej: "Pastillas de Freno Delanteras")
+   - En **"Imagen del producto"**, haga clic en **Seleccionar** y suba su imagen
+3. Repita para cada producto que quiera mostrar
+4. **Guarde los cambios**
+
+Una vez que agregue bloques de producto, las imagenes de demostracion desapareceran.
+
+### Editar un Producto Existente:
+
+1. Haga clic en el bloque del producto
+2. Cambie el nombre o haga clic en **Cambiar** en la imagen para subir una nueva
+3. Guarde
+
+### Eliminar un Producto:
+
+1. Seleccione el bloque del producto
+2. Haga clic en el icono de basura
+3. Guarde
+
+### Recomendaciones para Imagenes de Productos:
+
+- **Tamano recomendado**: 400x400 pixeles
+- **Formato**: JPG o PNG
+- **Fondo**: Preferiblemente blanco o transparente
+
+---
+
+## 7. Subir Logos de Proveedores
 
 La seccion donde aparecen los logos de las marcas de repuestos que maneja.
 
@@ -207,7 +267,110 @@ La seccion donde aparecen los logos de las marcas de repuestos que maneja.
 
 ---
 
-## 7. Editar el Pie de Pagina (Footer)
+## 8. Editar Pagina de Garantias
+
+La pagina de garantias y politicas de devolucion es completamente editable. Sigue el estilo de automas.cr con secciones claras.
+
+### Como acceder:
+
+1. En el Editor del Tema, use el selector de paginas arriba
+2. Navegue a **Paginas** > **Garantia** (o la pagina de politicas)
+
+### Editar el Contenido:
+
+1. Haga clic en la seccion **"TP Politicas y Garantias"**
+2. Configuracion principal:
+
+| Opcion | Descripcion |
+|--------|-------------|
+| **Titulo de la pagina** | Titulo principal (ej: "Politicas de Devolucion y Garantia") |
+| **Texto introductorio** | Parrafo opcional de introduccion |
+| **Colores** | Fondo, titulo, texto de secciones |
+
+### Editar Secciones de Politica:
+
+Cada seccion (GARANTIAS, DEVOLUCION, etc.) es un bloque editable:
+
+1. Haga clic en un bloque de **"Seccion de Politica"**
+2. Edite:
+   - **Titulo de la seccion** - Ej: "GARANTIAS", "DEVOLUCION"
+   - **Contenido de la seccion** - Texto con formato
+3. En el editor de contenido puede usar:
+   - **Negritas** (seleccione texto y presione B)
+   - **Cursivas** (seleccione texto y presione I)
+   - **Listas con puntos** (icono de lista)
+   - **Listas numeradas** (icono de lista numerada)
+
+### Agregar Nueva Seccion:
+
+1. Haga clic en **"Agregar bloque"**
+2. Seleccione **"Seccion de Politica"**
+3. Complete el titulo y contenido
+4. Guarde
+
+### Eliminar o Reordenar Secciones:
+
+- Para eliminar: seleccione el bloque y haga clic en el icono de basura
+- Para reordenar: arrastre los bloques hacia arriba o abajo
+
+### Llamada a la Accion:
+
+Al final de la pagina hay un boton de WhatsApp opcional:
+
+1. Active/desactive con **"Mostrar boton de contacto"**
+2. Edite el texto sobre el boton y el texto del boton
+
+---
+
+## 9. Editar Pagina Nosotros
+
+La pagina "Acerca de Nosotros" tambien es editable.
+
+### Como acceder:
+
+1. En el Editor del Tema, navegue a **Paginas** > **Nosotros**
+
+### Secciones de la Pagina:
+
+#### TP Hero de Pagina (Banner Superior):
+
+| Opcion | Descripcion |
+|--------|-------------|
+| **Titulo** | Titulo de la pagina |
+| **Subtitulo** | Texto secundario |
+| **Imagen de fondo** | Suba una imagen de fondo |
+| **Altura minima** | Ajuste la altura del banner |
+| **Color del overlay** | Color que oscurece la imagen |
+| **Opacidad del overlay** | Que tan oscuro es el overlay |
+| **Colores de texto** | Color del titulo y subtitulo |
+
+#### TP Sobre Nosotros (Informacion de la Empresa):
+
+| Opcion | Descripcion |
+|--------|-------------|
+| **Nombre de la empresa** | Nombre comercial |
+| **Nombre legal** | Razon social (opcional) |
+| **Slogan** | Frase de la empresa |
+| **Descripcion con formato** | Use el editor para crear texto con formato, listas, etc. |
+| **Imagen de la empresa** | Foto del equipo, instalaciones, etc. |
+| **Colores** | Fondo, titulo, slogan, texto |
+
+#### TP Por Que Elegirnos (Caracteristicas):
+
+Muestra las razones para elegir Terrapartes.
+
+1. Haga clic en cada **"Caracteristica"** para editar:
+   - **Icono** - Seleccione de la lista
+   - **Titulo** - Ej: "Asesoria Tecnica"
+   - **Descripcion** - Texto descriptivo
+
+2. Agregue nuevas caracteristicas con **"Agregar bloque"** > **"Caracteristica"**
+
+3. Configure colores del titulo y fondo
+
+---
+
+## 10. Editar el Pie de Pagina (Footer)
 
 La seccion inferior del sitio con el logo, enlaces y redes sociales.
 
@@ -236,7 +399,7 @@ La seccion inferior del sitio con el logo, enlaces y redes sociales.
 
 ---
 
-## 8. Configurar WhatsApp y Contacto
+## 11. Configurar WhatsApp y Contacto
 
 Estos ajustes se encuentran en la configuracion global del tema.
 
@@ -269,7 +432,7 @@ Estos ajustes se encuentran en la configuracion global del tema.
 
 ---
 
-## 9. Subir Imagenes
+## 12. Subir Imagenes
 
 ### Como subir imagenes:
 
@@ -295,7 +458,7 @@ Para que su sitio cargue rapido, comprima las imagenes antes de subirlas:
 
 ---
 
-## 10. Consejos Importantes
+## 13. Consejos Importantes
 
 ### Guardar cambios:
 - **SIEMPRE** haga clic en **Guardar** (boton verde en la esquina superior derecha) despues de hacer cambios
@@ -332,7 +495,10 @@ Para que su sitio cargue rapido, comprima las imagenes antes de subirlas:
 | **Header** | Logo, altura, colores, enlaces del menu |
 | **Hero** | Titulo, subtitulo, boton, imagen de fondo, colores |
 | **Categorias** | Titulo, subtitulo, colores, imagenes y nombres de cada categoria |
+| **Detalle de Categoria** | Imagen del banner, productos con imagenes individuales |
 | **Proveedores** | Titulo, subtitulo, colores, logos de cada proveedor |
+| **Pagina Garantias** | Titulo, secciones de politica con texto formateado |
+| **Pagina Nosotros** | Informacion de empresa, imagen, caracteristicas |
 | **Footer** | Logo, copyright, colores, enlaces |
 | **Configuracion Global** | WhatsApp, telefono, email, redes sociales, colores del sitio |
 

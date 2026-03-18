@@ -11,11 +11,14 @@ This guide explains how to edit all elements of your website from the Shopify ad
 3. [Editing the Top Bar](#3-editing-the-top-bar)
 4. [Editing the Header](#4-editing-the-header)
 5. [Editing Product Categories](#5-editing-product-categories)
-6. [Uploading Supplier Logos](#6-uploading-supplier-logos)
-7. [Editing the Footer](#7-editing-the-footer)
-8. [Configuring WhatsApp and Contact](#8-configuring-whatsapp-and-contact)
-9. [Uploading Images](#9-uploading-images)
-10. [Important Tips](#10-important-tips)
+6. [Editing Category Detail Page](#6-editing-category-detail-page)
+7. [Uploading Supplier Logos](#7-uploading-supplier-logos)
+8. [Editing the Warranty Page](#8-editing-the-warranty-page)
+9. [Editing the About Us Page](#9-editing-the-about-us-page)
+10. [Editing the Footer](#10-editing-the-footer)
+11. [Configuring WhatsApp and Contact](#11-configuring-whatsapp-and-contact)
+12. [Uploading Images](#12-uploading-images)
+13. [Important Tips](#13-important-tips)
 
 ---
 
@@ -149,7 +152,64 @@ The section with category cards (Brakes, Engine, etc.)
 
 ---
 
-## 6. Uploading Supplier Logos
+## 6. Editing Category Detail Page
+
+When you click on a category, it opens a detail page showing products in that category. **This page is also fully editable.**
+
+### How to access:
+
+1. In the Theme Editor, use the page selector at the top (where the current page is shown)
+2. Navigate to **Pages** > select the category you want to edit (e.g., "Frenos", "Suspension")
+3. Or go to the category URL directly in your browser and click **Customize**
+
+### Editing the Top Banner:
+
+1. Click on the **"TP Categoria Detalle"** section
+2. In **Hero Banner**, you can edit:
+
+| Option | Description |
+|--------|-------------|
+| **Category title** | The main title (e.g., "SUSPENSION Y DIRECCION") |
+| **Subtitle** | Optional text below the title |
+| **Hero image** | **Click "Select"** to upload a new background image |
+| **External image URL** | Alternative if you cannot upload |
+
+### IMPORTANT - Changing Product Images:
+
+**By default, demo images are shown.** To show YOUR own product images:
+
+1. In the "TP Categoria Detalle" section, look for **"Producto"** (product blocks)
+2. **Adding custom products:**
+   - Click on **"Add block"**
+   - Select **"Producto"**
+   - Enter the **Product name** (e.g., "Front Brake Pads")
+   - In **"Product image"**, click **Select** and upload your image
+3. Repeat for each product you want to show
+4. **Save your changes**
+
+Once you add product blocks, the demo images will disappear.
+
+### Editing an Existing Product:
+
+1. Click on the product block
+2. Change the name or click **Change** on the image to upload a new one
+3. Save
+
+### Deleting a Product:
+
+1. Select the product block
+2. Click the trash icon
+3. Save
+
+### Product Image Recommendations:
+
+- **Recommended size**: 400x400 pixels
+- **Format**: JPG or PNG
+- **Background**: Preferably white or transparent
+
+---
+
+## 7. Uploading Supplier Logos
 
 The section where your parts brand logos appear.
 
@@ -207,7 +267,110 @@ The section where your parts brand logos appear.
 
 ---
 
-## 7. Editing the Footer
+## 8. Editing the Warranty Page
+
+The warranty and return policy page is completely editable. It follows the automas.cr style with clear sections.
+
+### How to access:
+
+1. In the Theme Editor, use the page selector at the top
+2. Navigate to **Pages** > **Garantia** (or your policy page)
+
+### Editing the Content:
+
+1. Click on the **"TP Politicas y Garantias"** section
+2. Main settings:
+
+| Option | Description |
+|--------|-------------|
+| **Page title** | Main title (e.g., "Return and Warranty Policies") |
+| **Introductory text** | Optional introduction paragraph |
+| **Colors** | Background, title, section text |
+
+### Editing Policy Sections:
+
+Each section (WARRANTIES, RETURNS, etc.) is an editable block:
+
+1. Click on a **"Policy Section"** block
+2. Edit:
+   - **Section title** - E.g., "WARRANTIES", "RETURNS"
+   - **Section content** - Formatted text
+3. In the content editor you can use:
+   - **Bold** (select text and press B)
+   - **Italic** (select text and press I)
+   - **Bullet lists** (list icon)
+   - **Numbered lists** (numbered list icon)
+
+### Adding a New Section:
+
+1. Click **"Add block"**
+2. Select **"Policy Section"**
+3. Fill in the title and content
+4. Save
+
+### Deleting or Reordering Sections:
+
+- To delete: select the block and click the trash icon
+- To reorder: drag blocks up or down
+
+### Call to Action:
+
+At the end of the page there's an optional WhatsApp button:
+
+1. Enable/disable with **"Show contact button"**
+2. Edit the text above the button and the button text
+
+---
+
+## 9. Editing the About Us Page
+
+The "About Us" page is also editable.
+
+### How to access:
+
+1. In the Theme Editor, navigate to **Pages** > **Nosotros**
+
+### Page Sections:
+
+#### TP Page Hero (Top Banner):
+
+| Option | Description |
+|--------|-------------|
+| **Title** | Page title |
+| **Subtitle** | Secondary text |
+| **Background image** | Upload a background image |
+| **Minimum height** | Adjust banner height |
+| **Overlay color** | Color that darkens the image |
+| **Overlay opacity** | How dark the overlay is |
+| **Text colors** | Title and subtitle color |
+
+#### TP About Us (Company Information):
+
+| Option | Description |
+|--------|-------------|
+| **Company name** | Business name |
+| **Legal name** | Legal entity name (optional) |
+| **Slogan** | Company phrase |
+| **Formatted description** | Use the editor for formatted text, lists, etc. |
+| **Company image** | Team photo, facilities, etc. |
+| **Colors** | Background, title, slogan, text |
+
+#### TP Why Choose Us (Features):
+
+Shows reasons to choose Terrapartes.
+
+1. Click on each **"Feature"** to edit:
+   - **Icon** - Select from the list
+   - **Title** - E.g., "Technical Advice"
+   - **Description** - Descriptive text
+
+2. Add new features with **"Add block"** > **"Feature"**
+
+3. Configure title and background colors
+
+---
+
+## 10. Editing the Footer
 
 The bottom section of the site with logo, links, and social media.
 
@@ -236,7 +399,7 @@ The bottom section of the site with logo, links, and social media.
 
 ---
 
-## 8. Configuring WhatsApp and Contact
+## 11. Configuring WhatsApp and Contact
 
 These settings are found in the global theme settings.
 
@@ -269,7 +432,7 @@ These settings are found in the global theme settings.
 
 ---
 
-## 9. Uploading Images
+## 12. Uploading Images
 
 ### How to upload images:
 
@@ -295,7 +458,7 @@ To make your site load faster, compress images before uploading:
 
 ---
 
-## 10. Important Tips
+## 13. Important Tips
 
 ### Saving changes:
 - **ALWAYS** click **Save** (green button in top right corner) after making changes
@@ -332,7 +495,10 @@ To make your site load faster, compress images before uploading:
 | **Header** | Logo, height, colors, menu links |
 | **Hero** | Title, subtitle, button, background image, colors |
 | **Categories** | Title, subtitle, colors, images and names for each category |
+| **Category Detail** | Banner image, products with individual images |
 | **Suppliers** | Title, subtitle, colors, logos for each supplier |
+| **Warranty Page** | Title, policy sections with formatted text |
+| **About Us Page** | Company info, image, features |
 | **Footer** | Logo, copyright, colors, links |
 | **Global Settings** | WhatsApp, phone, email, social media, site colors |
 
