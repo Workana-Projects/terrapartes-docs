@@ -154,67 +154,56 @@ The section with category cards (Brakes, Engine, etc.)
 
 ## 6. Editing Category Detail Page
 
-Each category has its own detail page with pre-configured products that you can easily edit from the admin panel.
+All category pages use the same template (`page.category`), but **each page can have its own different products**. Shopify saves the configuration for each page separately.
 
-### Available Templates
+### How It Works
 
-Each category has its own template with appropriate products:
+In Shopify Online Store 2.0:
+- All category pages use the `page.category` template
+- When you customize a page in the Theme Editor, changes are saved ONLY for that page
+- Each page can have completely different products, images, and text
 
-| Category | Template | Page |
-|----------|----------|------|
-| Brakes | `page.frenos` | /pages/frenos |
-| Suspension & Steering | `page.suspension` | /pages/suspension |
-| Engine | `page.motor` | /pages/motor |
-| Cooling System | `page.enfriamiento` | /pages/enfriamiento |
-| Filtration | `page.filtracion` | /pages/filtracion |
-| Clutch & Transmission | `page.clutch` | /pages/clutch |
-| CV Joints & Axles | `page.puntas-ejes` | /pages/puntas-ejes |
-| Oils & Fluids | `page.aceites-liquidos` | /pages/aceites-liquidos |
-
-### IMPORTANT - Assigning the Correct Template
-
-For the correct products to appear in each category:
+### Creating a New Category Page
 
 1. Go to **Shopify Admin** > **Online Store** > **Pages**
-2. Select the category page (e.g., "Suspension")
-3. In the right panel, look for **"Theme template"**
-4. Select the correct template (e.g., `page.suspension` for the suspension page)
-5. Click **Save**
+2. Click **"Add page"**
+3. Enter the **Title** for the category (e.g., "Suspension y Direccion")
+   - This title will automatically appear as the page title
+4. In the right panel, look for **"Theme template"**
+5. Select **`page.category`**
+6. Click **Save**
 
-### How to access the Editor:
+### Customizing Products for a Category
 
-1. In the Theme Editor, use the page selector at the top (where the current page is shown)
-2. Navigate to **Pages** > select the category you want to edit (e.g., "Frenos", "Suspension")
-3. Or go to the category URL directly in your browser and click **Customize**
+1. In the Theme Editor, use the page selector at the top
+2. Navigate to **Pages** > select the category (e.g., "Suspension y Direccion")
+3. Click on the **"TP Categoria Detalle"** section
 
 ### Editing the Top Banner:
 
-1. Click on the **"TP Categoria Detalle"** section
-2. In **Hero Banner**, you can edit:
-
 | Option | Description |
 |--------|-------------|
-| **Category title** | The main title (e.g., "SUSPENSION Y DIRECCION") |
+| **Category title** | Leave empty to automatically use the page title |
 | **Subtitle** | Optional text below the title |
-| **Hero image** | **Click "Select"** to upload a new background image |
+| **Hero image** | **Click "Select"** to upload a background image |
 | **External image URL** | Alternative if you cannot upload |
 
-### Editing Products in a Category:
+### Adding Products:
 
-Each template already has pre-configured products. To edit them:
-
-1. In the "TP Categoria Detalle" section, you'll see a list of **"Producto"** blocks
-2. Click on any product to edit it:
-   - **Product name** - Change the name that appears on the card
-   - **Product image** - Click **Select** to upload your own image
-
-### Adding a New Product:
-
-1. Click **"Add block"**
+1. Click **"Add block"** (or "Agregar bloque")
 2. Select **"Producto"**
 3. Enter the **Product name** (e.g., "Front Shock Absorbers")
 4. In **"Product image"**, click **Select** and upload your image
-5. **Save your changes**
+5. Repeat for all products in this category
+6. **Save your changes**
+
+**IMPORTANT:** Products you add here will only appear on THIS category page, not on others.
+
+### Editing an Existing Product:
+
+1. Click on the product block
+2. Change the name or upload a new image
+3. Save
 
 ### Deleting a Product:
 
@@ -224,7 +213,24 @@ Each template already has pre-configured products. To edit them:
 
 ### Reordering Products:
 
-1. Drag product blocks up or down to change the order
+1. Drag product blocks up or down
+
+### Configuration Example
+
+For the "Suspension y Direccion" category, you would add products like:
+- Front Shock Absorbers
+- Rear Shock Absorbers
+- Upper Ball Joints
+- Lower Ball Joints
+- Tie Rod Ends
+- Control Arms
+- etc.
+
+For the "Frenos" (Brakes) category, you would add products like:
+- Front Brake Pads
+- Rear Brake Pads
+- Brake Discs
+- etc.
 
 ### Product Image Recommendations:
 

@@ -154,67 +154,56 @@ La seccion con las tarjetas de categorias (Frenos, Motor, etc.)
 
 ## 6. Editar Pagina de Detalle de Categoria
 
-Cada categoria tiene su propia pagina de detalle con productos pre-configurados que puede editar facilmente desde el panel de administracion.
+Todas las paginas de categoria utilizan la misma plantilla (`page.category`), pero **cada pagina puede tener sus propios productos diferentes**. Shopify guarda la configuracion de cada pagina por separado.
 
-### Plantillas Disponibles
+### Como Funciona
 
-Cada categoria tiene su propia plantilla con productos apropiados:
+En Shopify Online Store 2.0:
+- Todas las paginas de categoria usan la plantilla `page.category`
+- Cuando personaliza una pagina en el Editor del Tema, los cambios se guardan SOLO para esa pagina
+- Cada pagina puede tener productos, imagenes y textos completamente diferentes
 
-| Categoria | Plantilla | Pagina |
-|-----------|-----------|--------|
-| Frenos | `page.frenos` | /pages/frenos |
-| Suspension y Direccion | `page.suspension` | /pages/suspension |
-| Motor | `page.motor` | /pages/motor |
-| Sistema de Enfriamiento | `page.enfriamiento` | /pages/enfriamiento |
-| Filtracion | `page.filtracion` | /pages/filtracion |
-| Clutch y Transmision | `page.clutch` | /pages/clutch |
-| Puntas y Ejes | `page.puntas-ejes` | /pages/puntas-ejes |
-| Aceites y Liquidos | `page.aceites-liquidos` | /pages/aceites-liquidos |
-
-### IMPORTANTE - Asignar la Plantilla Correcta
-
-Para que los productos correctos aparezcan en cada categoria:
+### Crear una Nueva Pagina de Categoria
 
 1. Vaya a **Shopify Admin** > **Tienda Online** > **Paginas**
-2. Seleccione la pagina de categoria (ej: "Suspension")
-3. En el panel derecho, busque **"Plantilla de tema"** (o "Theme template")
-4. Seleccione la plantilla correcta (ej: `page.suspension` para la pagina de suspension)
-5. Haga clic en **Guardar**
+2. Haga clic en **"Agregar pagina"**
+3. Ingrese el **Titulo** de la categoria (ej: "Suspension y Direccion")
+   - Este titulo aparecera automaticamente como titulo de la pagina
+4. En el panel derecho, busque **"Plantilla de tema"**
+5. Seleccione **`page.category`**
+6. Haga clic en **Guardar**
 
-### Como acceder al Editor:
+### Personalizar los Productos de una Categoria
 
-1. En el Editor del Tema, use el selector de paginas arriba (donde dice la pagina actual)
-2. Navegue a **Paginas** > seleccione la categoria que desea editar (ej: "Frenos", "Suspension")
-3. O vaya a la URL de la categoria directamente en su navegador y haga clic en **Personalizar**
+1. En el Editor del Tema, use el selector de paginas arriba
+2. Navegue a **Paginas** > seleccione la categoria (ej: "Suspension y Direccion")
+3. Haga clic en la seccion **"TP Categoria Detalle"**
 
 ### Editar el Banner Superior:
 
-1. Haga clic en la seccion **"TP Categoria Detalle"**
-2. En **Hero Banner**, puede editar:
-
 | Opcion | Descripcion |
 |--------|-------------|
-| **Titulo de la categoria** | El titulo grande (ej: "SUSPENSION Y DIRECCION") |
+| **Titulo de la categoria** | Deje vacio para usar el titulo de la pagina automaticamente |
 | **Subtitulo** | Texto opcional debajo del titulo |
-| **Imagen del hero** | **Haga clic en "Seleccionar"** para subir una nueva imagen de fondo |
+| **Imagen del hero** | **Haga clic en "Seleccionar"** para subir una imagen de fondo |
 | **URL externa de imagen** | Alternativa si no puede subir imagen |
 
-### Editar los Productos de una Categoria:
+### Agregar Productos:
 
-Cada plantilla ya tiene productos pre-configurados. Para editarlos:
-
-1. En la seccion "TP Categoria Detalle", vera una lista de bloques **"Producto"**
-2. Haga clic en cualquier producto para editarlo:
-   - **Nombre del producto** - Cambie el nombre que aparece en la tarjeta
-   - **Imagen del producto** - Haga clic en **Seleccionar** para subir su propia imagen
-
-### Agregar un Producto Nuevo:
-
-1. Haga clic en **"Agregar bloque"**
+1. Haga clic en **"Agregar bloque"** (o "Add block")
 2. Seleccione **"Producto"**
 3. Ingrese el **Nombre del producto** (ej: "Amortiguadores Delanteros")
 4. En **"Imagen del producto"**, haga clic en **Seleccionar** y suba su imagen
-5. **Guarde los cambios**
+5. Repita para todos los productos de esta categoria
+6. **Guarde los cambios**
+
+**IMPORTANTE:** Los productos que agregue aqui solo apareceran en ESTA pagina de categoria, no en las otras.
+
+### Editar un Producto Existente:
+
+1. Haga clic en el bloque del producto
+2. Cambie el nombre o suba una nueva imagen
+3. Guarde
 
 ### Eliminar un Producto:
 
@@ -224,7 +213,24 @@ Cada plantilla ya tiene productos pre-configurados. Para editarlos:
 
 ### Reordenar Productos:
 
-1. Arrastre los bloques de producto hacia arriba o abajo para cambiar el orden
+1. Arrastre los bloques de producto hacia arriba o abajo
+
+### Ejemplo de Configuracion
+
+Para la categoria "Suspension y Direccion", agregaria productos como:
+- Amortiguadores Delanteros
+- Amortiguadores Traseros
+- Rotulas Superiores
+- Rotulas Inferiores
+- Terminales de Direccion
+- Brazos de Suspension
+- etc.
+
+Para la categoria "Frenos", agregaria productos como:
+- Pastillas de Freno Delanteras
+- Pastillas de Freno Traseras
+- Discos de Freno
+- etc.
 
 ### Recomendaciones para Imagenes de Productos:
 

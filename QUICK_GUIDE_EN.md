@@ -30,11 +30,11 @@
 4. Save
 
 ### Edit Products in a Category
-1. Go to **Shopify Admin** > **Pages** > select the category page
-2. Assign the correct template (e.g., `page.suspension` for Suspension)
-3. In the Theme Editor, navigate to the category page
-4. Click on **"Producto"** blocks to edit names and images
-5. Save
+1. Go to **Shopify Admin** > **Pages** > create or select the page
+2. Assign the **`page.category`** template
+3. In the Theme Editor, navigate to that category page
+4. Add **"Producto"** blocks with names and images
+5. Save (each page saves its own products)
 
 ### Change WhatsApp Number
 1. Click gear icon (bottom left)

@@ -30,11 +30,11 @@
 4. Guardar
 
 ### Editar Productos de una Categoria
-1. Ir a **Shopify Admin** > **Paginas** > seleccionar la pagina de categoria
-2. Asignar la plantilla correcta (ej: `page.suspension` para Suspension)
-3. En el Editor del Tema, navegar a la pagina de categoria
-4. Clic en los bloques de **"Producto"** para editar nombres e imagenes
-5. Guardar
+1. Ir a **Shopify Admin** > **Paginas** > crear o seleccionar la pagina
+2. Asignar la plantilla **`page.category`**
+3. En el Editor del Tema, navegar a esa pagina de categoria
+4. Agregar bloques de **"Producto"** con nombres e imagenes
+5. Guardar (cada pagina guarda sus propios productos)
 
 ### Cambiar Numero de WhatsApp
 1. Clic en engranaje (abajo izquierda)
