@@ -154,9 +154,34 @@ The section with category cards (Brakes, Engine, etc.)
 
 ## 6. Editing Category Detail Page
 
-When you click on a category, it opens a detail page showing products in that category. **This page is also fully editable.**
+Each category has its own detail page with pre-configured products that you can easily edit from the admin panel.
 
-### How to access:
+### Available Templates
+
+Each category has its own template with appropriate products:
+
+| Category | Template | Page |
+|----------|----------|------|
+| Brakes | `page.frenos` | /pages/frenos |
+| Suspension & Steering | `page.suspension` | /pages/suspension |
+| Engine | `page.motor` | /pages/motor |
+| Cooling System | `page.enfriamiento` | /pages/enfriamiento |
+| Filtration | `page.filtracion` | /pages/filtracion |
+| Clutch & Transmission | `page.clutch` | /pages/clutch |
+| CV Joints & Axles | `page.puntas-ejes` | /pages/puntas-ejes |
+| Oils & Fluids | `page.aceites-liquidos` | /pages/aceites-liquidos |
+
+### IMPORTANT - Assigning the Correct Template
+
+For the correct products to appear in each category:
+
+1. Go to **Shopify Admin** > **Online Store** > **Pages**
+2. Select the category page (e.g., "Suspension")
+3. In the right panel, look for **"Theme template"**
+4. Select the correct template (e.g., `page.suspension` for the suspension page)
+5. Click **Save**
+
+### How to access the Editor:
 
 1. In the Theme Editor, use the page selector at the top (where the current page is shown)
 2. Navigate to **Pages** > select the category you want to edit (e.g., "Frenos", "Suspension")
@@ -174,32 +199,32 @@ When you click on a category, it opens a detail page showing products in that ca
 | **Hero image** | **Click "Select"** to upload a new background image |
 | **External image URL** | Alternative if you cannot upload |
 
-### IMPORTANT - Changing Product Images:
+### Editing Products in a Category:
 
-**By default, demo images are shown.** To show YOUR own product images:
+Each template already has pre-configured products. To edit them:
 
-1. In the "TP Categoria Detalle" section, look for **"Producto"** (product blocks)
-2. **Adding custom products:**
-   - Click on **"Add block"**
-   - Select **"Producto"**
-   - Enter the **Product name** (e.g., "Front Brake Pads")
-   - In **"Product image"**, click **Select** and upload your image
-3. Repeat for each product you want to show
-4. **Save your changes**
+1. In the "TP Categoria Detalle" section, you'll see a list of **"Producto"** blocks
+2. Click on any product to edit it:
+   - **Product name** - Change the name that appears on the card
+   - **Product image** - Click **Select** to upload your own image
 
-Once you add product blocks, the demo images will disappear.
+### Adding a New Product:
 
-### Editing an Existing Product:
-
-1. Click on the product block
-2. Change the name or click **Change** on the image to upload a new one
-3. Save
+1. Click **"Add block"**
+2. Select **"Producto"**
+3. Enter the **Product name** (e.g., "Front Shock Absorbers")
+4. In **"Product image"**, click **Select** and upload your image
+5. **Save your changes**
 
 ### Deleting a Product:
 
 1. Select the product block
 2. Click the trash icon
 3. Save
+
+### Reordering Products:
+
+1. Drag product blocks up or down to change the order
 
 ### Product Image Recommendations:
 

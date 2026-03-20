@@ -154,9 +154,34 @@ La seccion con las tarjetas de categorias (Frenos, Motor, etc.)
 
 ## 6. Editar Pagina de Detalle de Categoria
 
-Cuando hace clic en una categoria, se abre una pagina de detalle que muestra los productos de esa categoria. **Esta pagina tambien es totalmente editable.**
+Cada categoria tiene su propia pagina de detalle con productos pre-configurados que puede editar facilmente desde el panel de administracion.
 
-### Como acceder:
+### Plantillas Disponibles
+
+Cada categoria tiene su propia plantilla con productos apropiados:
+
+| Categoria | Plantilla | Pagina |
+|-----------|-----------|--------|
+| Frenos | `page.frenos` | /pages/frenos |
+| Suspension y Direccion | `page.suspension` | /pages/suspension |
+| Motor | `page.motor` | /pages/motor |
+| Sistema de Enfriamiento | `page.enfriamiento` | /pages/enfriamiento |
+| Filtracion | `page.filtracion` | /pages/filtracion |
+| Clutch y Transmision | `page.clutch` | /pages/clutch |
+| Puntas y Ejes | `page.puntas-ejes` | /pages/puntas-ejes |
+| Aceites y Liquidos | `page.aceites-liquidos` | /pages/aceites-liquidos |
+
+### IMPORTANTE - Asignar la Plantilla Correcta
+
+Para que los productos correctos aparezcan en cada categoria:
+
+1. Vaya a **Shopify Admin** > **Tienda Online** > **Paginas**
+2. Seleccione la pagina de categoria (ej: "Suspension")
+3. En el panel derecho, busque **"Plantilla de tema"** (o "Theme template")
+4. Seleccione la plantilla correcta (ej: `page.suspension` para la pagina de suspension)
+5. Haga clic en **Guardar**
+
+### Como acceder al Editor:
 
 1. En el Editor del Tema, use el selector de paginas arriba (donde dice la pagina actual)
 2. Navegue a **Paginas** > seleccione la categoria que desea editar (ej: "Frenos", "Suspension")
@@ -174,32 +199,32 @@ Cuando hace clic en una categoria, se abre una pagina de detalle que muestra los
 | **Imagen del hero** | **Haga clic en "Seleccionar"** para subir una nueva imagen de fondo |
 | **URL externa de imagen** | Alternativa si no puede subir imagen |
 
-### IMPORTANTE - Cambiar Imagenes de Productos:
+### Editar los Productos de una Categoria:
 
-**Por defecto se muestran imagenes de demostracion.** Para mostrar SUS propias imagenes de productos:
+Cada plantilla ya tiene productos pre-configurados. Para editarlos:
 
-1. En la seccion "TP Categoria Detalle", busque donde dice **"Producto"** (bloques)
-2. **Agregar productos personalizados:**
-   - Haga clic en **"Agregar bloque"**
-   - Seleccione **"Producto"**
-   - Ingrese el **Nombre del producto** (ej: "Pastillas de Freno Delanteras")
-   - En **"Imagen del producto"**, haga clic en **Seleccionar** y suba su imagen
-3. Repita para cada producto que quiera mostrar
-4. **Guarde los cambios**
+1. En la seccion "TP Categoria Detalle", vera una lista de bloques **"Producto"**
+2. Haga clic en cualquier producto para editarlo:
+   - **Nombre del producto** - Cambie el nombre que aparece en la tarjeta
+   - **Imagen del producto** - Haga clic en **Seleccionar** para subir su propia imagen
 
-Una vez que agregue bloques de producto, las imagenes de demostracion desapareceran.
+### Agregar un Producto Nuevo:
 
-### Editar un Producto Existente:
-
-1. Haga clic en el bloque del producto
-2. Cambie el nombre o haga clic en **Cambiar** en la imagen para subir una nueva
-3. Guarde
+1. Haga clic en **"Agregar bloque"**
+2. Seleccione **"Producto"**
+3. Ingrese el **Nombre del producto** (ej: "Amortiguadores Delanteros")
+4. En **"Imagen del producto"**, haga clic en **Seleccionar** y suba su imagen
+5. **Guarde los cambios**
 
 ### Eliminar un Producto:
 
 1. Seleccione el bloque del producto
 2. Haga clic en el icono de basura
 3. Guarde
+
+### Reordenar Productos:
+
+1. Arrastre los bloques de producto hacia arriba o abajo para cambiar el orden
 
 ### Recomendaciones para Imagenes de Productos:
 

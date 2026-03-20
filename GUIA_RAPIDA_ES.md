@@ -26,8 +26,15 @@
 ### Cambiar Categoria
 1. Buscar seccion **"TP Categorias"**
 2. Clic en la categoria a editar
-3. Cambiar nombre y/o imagen
+3. Cambiar nombre, imagen y/o enlace
 4. Guardar
+
+### Editar Productos de una Categoria
+1. Ir a **Shopify Admin** > **Paginas** > seleccionar la pagina de categoria
+2. Asignar la plantilla correcta (ej: `page.suspension` para Suspension)
+3. En el Editor del Tema, navegar a la pagina de categoria
+4. Clic en los bloques de **"Producto"** para editar nombres e imagenes
+5. Guardar
 
 ### Cambiar Numero de WhatsApp
 1. Clic en engranaje (abajo izquierda)
